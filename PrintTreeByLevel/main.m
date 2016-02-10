@@ -77,7 +77,6 @@
         if (curObject.right){
             [queue enqueue:curObject.right];
         }
-        NSLog(@"123");
     }
     
     return result;
